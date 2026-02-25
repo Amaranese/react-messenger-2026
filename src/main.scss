@@ -1,0 +1,30 @@
+@import "./components/Contact/contact";
+@import "./components/Profile/profile";
+@import "./components/Social/social";
+@import "./components/Media/media";
+@import "./components/Messages/messages";
+@import "./components/ProfileInfo/profileInfo";
+
+
+$black: #000;
+$white: #fff;
+$gray: #F7F8F9;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style-type: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.content-profile {
+  width: 20%;
+  height: 100vh;
+  background-color: #F7F8F9;
+  padding: 20px;
+
+  .profile-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}

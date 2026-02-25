@@ -1,0 +1,92 @@
+.messages{
+  position: relative;
+  width: 50%;
+  padding: 20px 0;
+  margin: 0 40px;
+  height: 100vh;
+  &-header{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bbbaba;
+    padding: 10px;
+  }
+  &-content{
+    padding: 20px 0 60px 0;
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+    &__received{
+      display: flex;
+      align-items: flex-end;
+      &-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 15px;
+        background-color: #F0F5F9;
+        border-radius: 20px 20px 20px 0;
+        margin: 20px 10px;
+        font-size: 18px;
+        p{
+          margin-bottom: 5px;
+        }
+        span{
+          font-size: 14px;
+        }
+      }
+    }
+    &__notification{
+      max-width: 300px;
+      text-align: center;
+      margin: auto;
+      background-color: #F0F5F9;
+      padding: 8px;
+      border-radius: 50px;
+    }
+    .chat-right{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &__sent{
+      text-align: right;
+      padding: 15px;
+      background-color: #6F0BFF;
+      border-radius: 20px 20px 0 20px;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #fff;
+      p{
+        margin-bottom: 5px;
+      }
+      span{
+        font-size: 14px;
+      }
+    }
+  }
+  &-send{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #bbbaba;
+    padding-top: 15px;
+    background-color: #fff;
+    input{
+      width: 90%;
+      font-size: 18px;
+    }
+    &__icons{
+      width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

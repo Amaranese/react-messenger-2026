@@ -1,0 +1,28 @@
+.social {
+  margin-bottom: 20px;
+
+  .social-title {
+    margin-bottom: 10px;
+  }
+
+  .social-list {
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+  }
+
+  .social-list-item {
+    color: rgb(157 167 197);
+    display: flex;
+    cursor: pointer;
+
+    + .social-list-item {
+      margin-top: 10px;
+    }
+
+    span {
+      color: #000000;
+      padding-left: 10px;
+    }
+  }
+}

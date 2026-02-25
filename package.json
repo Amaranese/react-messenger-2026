@@ -5,10 +5,19 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.8",
     "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "axios": "^1.13.5",
+    "prettier": "^3.8.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.1",
     "react-scripts": "5.0.1",
+    "redux-thunk": "^3.1.0",
+    "sass": "^1.97.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

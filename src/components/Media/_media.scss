@@ -1,0 +1,25 @@
+.media {
+
+  .media-title {
+    margin-bottom: 10px;
+  }
+
+  .media-list {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .media-list-item {
+    display: flex;
+
+    span {
+      padding-left: 10px;
+    }
+  }
+
+  .media-icon {
+    color: rgb(157 167 197);
+  }
+
+}

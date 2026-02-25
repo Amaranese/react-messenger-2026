@@ -1,0 +1,36 @@
+.profile-info {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .profile-names {
+    margin-bottom: 15px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .profile-icons-list {
+    color: rgb(157 167 197);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .icons-list-item {
+    cursor: pointer;
+  }
+
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+}

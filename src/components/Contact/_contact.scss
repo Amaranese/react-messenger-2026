@@ -1,0 +1,71 @@
+.content-dialog{
+  width: 25%;
+  height: 100vh;
+  background-color: #F7F8F9;
+  padding: 20px;
+  overflow: scroll;
+  .dialog-search{
+    position: relative;
+    input{
+      border-radius: 8px;
+      width: 100%;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      font-size: 20px;
+      padding: 15px 15px 15px 55px;
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 13px;
+      width: 40px;
+      height: 30px;
+      z-index: 99;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAC50lEQVRoge2ZS2sTURTHf/FRd9WFJoW2SKw761K0RaNbdeOiNS0V/AiCDyxC1V3TD+BeUKSUbpqI4M7WF+LWfoCspNVNLaavNHFxz3XGZmhy596ZCZgfDGdIcv7nnJl779w5gQ4dIiFl6d8DXAMuA4PASaBbvlsDysAy8A54A6xYxnNODigBO0C9xWMHKAKXEsi3gQHUldXJVYFF4C5wHkgDh+VIAxeAe8CS/Fb7vQZOxZz7XyaAdUnkNzANnDDwTwMFoCIav4Bxxzk25THe1ZwFei20+oA5n96UdXYt8lQC1uTcdoHQ3AF2iamYCQm0C4xEoD+KV8xYBPqAmth6TjyMKggwiTdnslEE0KvTbBTiPlJ4c6bkWjwnwhWg37V4AL2olbAOXHQpXBLRaZeiTShIzAVXgj2op3AVs+eELWmJuS3nRhwI+Ow6cAj4APywSs2MVeAzaldw1dQ5qJCc2KJFUmHRw+qKqWNQIYNiP4ZOJzyfxJ5xIfYTNeninB+ajMRedSG2JWJdLsQMOSKxN00dg4ZWO7Bt6hBUyLrYo3a5hOKYWOOhFVRIWexA6HTCc1rsd1PHoEK+iR0OnU54hsQumzoGFbIo9kbodMKjY751IZbB26IYbxUs8G9Rupv8tmWKqGWw4EqwBWYk5iuXokMiukG82/gacNa1uN7Kz+HuPT2IFDDvi+WcLOr1s456HY2KRxJjBTU/I2Ecr/kwGoH+TdGuoVqvkTKFV8wkboZZCnUndAelCuQd6DZFF6PHcZ+FVj/enNjbG46lmDG8OVNBLc0mz5k0aondEI01GpvgsRWTxVvN9JBYAu6jtjQZ1Pa/S86HgQfAe/5tYr9E9QbySRYDqmWzEJDEfscm8AI4t0cr8WJADZfbwHPgK6pZsYV6uJWBL8AzSer4PjptUYwrRmgspgrcSjKpsHSKaVc6xbQr/18x7drX8jOPSrrq++wgCf69bYv/zjxJOBdr8qi/yjt0iIs/2Qz+4tsslCoAAAAASUVORK5CYII=");
+    }
+  }
+  .dialog-contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    &__item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      width: 100%;
+      transition: all .4s;
+      border-radius: 8px;
+      margin-top: 20px;
+      &:hover{
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all .4s;
+      }
+      .contact-text{
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        padding: 0 15px;
+        &__name{
+          font-size: 20px;
+          font-weight: 700;
+          color: #000;
+          margin-bottom: 5px;
+        }
+        &__message{
+          color: #7A7B7B;
+          font-size: 16px;
+          font-weight: 100;
+        }
+      }
+      .contact-time{
+        color: #7A7B7B;
+      }
+    }
+  }
+}
